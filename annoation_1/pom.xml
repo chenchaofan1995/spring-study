@@ -9,7 +9,6 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.ccf</groupId>
     <artifactId>annoation_1</artifactId>
     <packaging>jar</packaging>
 
