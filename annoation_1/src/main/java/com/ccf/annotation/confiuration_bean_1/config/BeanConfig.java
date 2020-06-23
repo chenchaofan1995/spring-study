@@ -1,13 +1,15 @@
-package com.ccf.annoation.confiuration_bean_1.config;
+package com.ccf.annotation.confiuration_bean_1.config;
 
-import com.ccf.annoation.confiuration_bean_1.entites.Person;
+import com.ccf.annotation.confiuration_bean_1.entites.Person;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
  * @author chenchaofan
- * @date 2020/6/23 - 11:17
+ * @Configuration:在类上使用该注解作用是声明该类是一个bean.xml文件
+ * @Bean:类似于
  */
+
 @Configuration
 public class BeanConfig {
 

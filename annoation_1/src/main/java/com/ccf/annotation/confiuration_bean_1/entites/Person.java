@@ -1,4 +1,4 @@
-package com.ccf.annoation.confiuration_bean_1.entites;
+package com.ccf.annotation.confiuration_bean_1.entites;
 
 /**
  * Created by smlz on 2019/5/19.

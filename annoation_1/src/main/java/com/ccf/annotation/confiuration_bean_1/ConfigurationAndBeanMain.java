@@ -1,4 +1,8 @@
-package com.ccf.annoation.confiuration_bean_1;
+package com.ccf.annotation.confiuration_bean_1;
+
+import com.ccf.annotation.confiuration_bean_1.config.BeanConfig;
+import com.ccf.annotation.confiuration_bean_1.entites.Person;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
  * @author chenchaofan
@@ -6,6 +10,8 @@ package com.ccf.annoation.confiuration_bean_1;
  */
 public class ConfigurationAndBeanMain {
     public static void main(String[] args) {
-        Annoa
+        AnnotationConfigApplicationContext annotationConfigApplicationContext =new AnnotationConfigApplicationContext(BeanConfig.class);
+        Person person = (Person) annotationConfigApplicationContext.getBean("person");
+        System.out.println(person);
     }
 }
