@@ -6,8 +6,8 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * @author chenchaofan
- * @Configuration:在类上使用该注解作用是声明该类是一个bean.xml文件
- * @Bean:类似于
+ * 1: @Configuration:在类上使用该注解作用是声明该类是一个bean.xml文件
+ * 2: @Bean:类似于<bean><bean/>标签
  */
 
 @Configuration
